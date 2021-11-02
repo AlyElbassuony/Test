@@ -1,5 +1,5 @@
 {
-
+  "homepage": "https://alyelbassuony.github.io/Test/",
   "name": "wouldyourather",
   "version": "0.1.0",
   "private": true,
@@ -48,6 +48,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   }
 }
