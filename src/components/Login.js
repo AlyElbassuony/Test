@@ -26,7 +26,7 @@ const Login = (props) => {
                     <option value=""> Select User </option>
                     {  
                     users.map( user => 
-                            <option value={user.id} >  {user.name}</option>
+                            <option value={user.id} key={user.id}>  {user.name}</option>
                         )
                     }
                 </select>
