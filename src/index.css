@@ -150,3 +150,7 @@ span {
 .center {
   text-align: center;
 }
+
+label {
+  margin: 5px;
+}
