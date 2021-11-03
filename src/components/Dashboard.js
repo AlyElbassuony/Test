@@ -12,7 +12,7 @@ const Dashboard = (props) => {
             <Router  basename={process.env.PUBLIC_URL}>
                 <div className="content">
                     <Nav/> 
-                    <h2 className="center"> Would You Rather...?</h2>
+                    <h3 className="center"> Would You Rather...?</h3>
                     <Switch>
                         <Route exact path='/'>
                             <Questions/>
