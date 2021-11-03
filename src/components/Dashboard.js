@@ -9,7 +9,7 @@ import Poll from "./Poll";
 
 const Dashboard = (props) => {
     return ( 
-            <Router>
+            <Router  basename={process.env.PUBLIC_URL}>
                 <div className="content">
                     <Nav/> 
                     <h2 className="center"> Would You Rather...?</h2>
